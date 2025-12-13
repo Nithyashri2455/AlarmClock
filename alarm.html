@@ -1,2 +1,33 @@
-<h1>hello</h1>
-<h2>world</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Alarm Clock</h1>
+
+    <div id="clock"></div>
+
+    <div class="alarm-set">
+        <select id="hour"></select>
+        <select id="minute"></select>
+        <select id="second"></select>
+<select id="ampm">
+    <option>AM</option>
+    <option>PM</option>
+</select>
+
+        <button onclick="setAlarm()">Set Alarm</button>
+    </div>
+
+    <p id="status"></p>
+<body onclick="enableAudio()"></body>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
