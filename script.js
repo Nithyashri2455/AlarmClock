@@ -1,7 +1,7 @@
 let alarmTime = null;
 let alarmSet = false;
 
-let audio = new Audio("alarm.mp3");
+let audio = new Audio("sound.mp3");
 audio.loop = true;
 audio.load();
 
