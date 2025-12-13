@@ -35,7 +35,7 @@ function updateClock() {
 setInterval(updateClock, 1000);
 
 // Populate hour dropdown (1 to 12)
-for (let i = 1; i <= 12; i++) {
+for (let i = 0; i <= 12; i++) {
     hour.innerHTML += <option>${String(i).padStart(2, '0')}</option>;
 }
 
