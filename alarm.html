@@ -3,33 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Alarm Clock</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="alarm.css">
 </head>
 <body>
-<h1>hello</h1>
-<h1>world</h1>
+
 <div class="container">
     <h1>Alarm Clock</h1>
-    
 
-    <div id="clock"></div>
+    <div id="clock">00:00:00</div>
 
     <div class="alarm-set">
         <select id="hour"></select>
         <select id="minute"></select>
         <select id="second"></select>
-<select id="ampm">
-    <option>AM</option>
-    <option>PM</option>
-</select>
 
+        <select id="ampm">
+            <option>AM</option>
+            <option>PM</option>
+        </select>
+
+        <br><br>
+
+        <button onclick="enableAudio()">Enable Sound</button>
         <button onclick="setAlarm()">Set Alarm</button>
+        <button onclick="stopAlarm()">Stop Alarm</button>
     </div>
 
-    <p id="status"></p>
-<body onclick="enableAudio()"></body>
+    <p id="status">No alarm set</p>
 </div>
 
-<script src="script.js"></script>
+<script src="alarm.js"></script>
 </body>
 </html>
