@@ -1,4 +1,32 @@
-h1{
-    font-size: 24px;
-    color: #333333;
+body {
+    background: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+#clock {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+select {
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    border-radius: 5px;
 }
